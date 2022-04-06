@@ -1,0 +1,75 @@
+header {
+    display: inline-flex;
+}
+.first {
+    background: red;
+    display: inline;
+    float: left; /*used for positioning and formatting content */
+    padding-top: 10px; /* sets the height of the padding area on the top of an element.*/
+    padding-right: 350px;
+    padding-bottom: 10px; /*sets the bottom space of an element*/
+    padding-left: 300px;
+}
+  
+.second {
+    background: yellow;
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    padding-right: 305px;
+    padding-bottom: 10px;
+    padding-left: 330px;
+    
+}
+.navbar{
+    background-color: lightgreen;
+    margin-top: 20px;  /*sets the margin area on the top of an element*/
+}
+.navbar ul{
+    overflow: auto;
+    margin: 5px;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 0.5%;
+    padding: 1;
+    background-color: beige;
+    font-size: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    display: block;
+    width: 100%
+}
+
+section{
+    display: inline-flex;
+}
+.third {
+    background: peachpuff;
+    display: inline;
+    float: left;
+    padding-top: 10px;
+    padding-right: 350px;
+    padding-bottom: 10px;
+    padding-left: 300px;
+}
+.fourth {
+    background: palevioletred;
+    display: inline;
+    float: right;
+    padding-top: 10px;
+    padding-right: 305px;
+    padding-bottom: 10px;
+    padding-left: 330px;
+}
+
+.footer{
+    background: burlywood;
+    margin: 5px;
+    padding-top: 10px;
+    padding-right: 300px;
+    padding-bottom: 10px;
+    padding-left: 300px;
+}
